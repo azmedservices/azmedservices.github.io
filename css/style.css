@@ -1800,7 +1800,7 @@ header {
 }
 
 figure {
-  width: 70rem;
+  width: 80%;
 }
 
 user agent stylesheet figure {
@@ -1812,7 +1812,12 @@ user agent stylesheet figure {
 }
 
 .bellcurve.animate.inview img {
-  opacity: 1;
+  opacity: 0.9;
+  background: #fff;
+}
+
+.animate.bellcurve.inview {
+  margin: auto;
 }
 
 .bellcurve.animate img {
